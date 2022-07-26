@@ -1,10 +1,10 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ay-emma/ml-microservice-kubernetes-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ay-emma/ml-microservice-kubernetes-project/tree/main)
+
 
 ## Project Overview
 
 This project simply operationalize a Machine learning microservice API that pridicts housing prices in Boston. 
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ay-emma/ml-microservice-kubernetes-project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ay-emma/ml-microservice-kubernetes-project/tree/main)
 
 A pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). 
 
@@ -47,9 +47,9 @@ source .devops/bin/activate
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally 
-* Setup and Configure (Kubernetes locally)[https://kubernetes.io/docs/tasks/tools/install-minikube/]
+* Setup and Configure [Kubernetes locally](https://kubernetes.io/docs/tasks/tools/install-minikube/)
 * Create Flask app in Container
-* Run via (kubectl)[https://minikube.sigs.k8s.io/docs/handbook/controls/] 
+* Run via [kubectl](https://minikube.sigs.k8s.io/docs/handbook/controls/)
 * 
 
 
