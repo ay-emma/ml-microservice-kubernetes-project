@@ -5,11 +5,18 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=whoisay/ml-app
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
+docker login -u whoisay
+
+docker tag ml-app $dockerpath:latest
+
 # Step 3:
 # Push image to a docker repository
+
+docker push $dockerpath:latest
+

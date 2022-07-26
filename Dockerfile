@@ -21,6 +21,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 ## Step 5:
 # Run app.py at container launch
-
 CMD [ "python", "app.py" ]
 

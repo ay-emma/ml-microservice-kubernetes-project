@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 ## Complete the following steps to get Docker running locally
 
 # Step 1:
@@ -8,12 +9,8 @@ docker build --tag=ml-app .
 
 # Step 2: 
 # List docker images
-docker image ls 
+docker image ls
 
-# Step 3: 
+# Step 3:
 # Run flask app
 docker run -p 8000:80 ml-app
-
-# docker run -p 80:8000 ml-app  // wrong
-
-
